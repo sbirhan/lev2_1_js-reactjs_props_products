@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20vw;
+    border: .2vw solid black;
+    border-radius: 1.3vw;
+    margin: 1vw 2.5vw;
+    background-color: rgba(200,200,200,.7);
+}
+
+.container img{
+    width: 100%;
+    border-radius: 1vw 1vw 0 0;
+}
+
+.title{
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 1vw;
+}
+
+.description{
+    font-size: 1.2vw;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 1vw;
+}
+
+.follower{
+    font-size: .9vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
